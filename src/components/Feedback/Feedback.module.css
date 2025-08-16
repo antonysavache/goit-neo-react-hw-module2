@@ -1,0 +1,57 @@
+.feedback {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  margin: 0 0 16px 0;
+  color: #333;
+  font-size: 20px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.statItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.statItem:last-child {
+  border-bottom: none;
+}
+
+.label {
+  font-weight: 500;
+  color: #555;
+}
+
+.value {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+.good {
+  color: #4caf50;
+}
+
+.neutral {
+  color: #ff9800;
+}
+
+.bad {
+  color: #f44336;
+}
+
+.positive {
+  color: #4caf50;
+}
